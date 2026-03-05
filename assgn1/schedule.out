@@ -1,0 +1,9 @@
+Schedule = static
+Pi = 3.141592653590
+Time_seconds = 0.002138
+Schedule = dynamic
+Pi = 3.141592653590
+Time_seconds = 0.002206
+Schedule = guided
+Pi = 3.141592653590
+Time_seconds = 0.001794

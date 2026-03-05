@@ -1,0 +1,18 @@
+rm -f compute_pi
+gcc -O3 -fopenmp -Wall -Wextra compute_pi.c -o compute_pi
+Run: OMP_PLACES=cores OMP_PROC_BIND=close OMP_NUM_THREADS=64 N=10000000
+Pi = 3.141592653590
+Time_seconds = 0.002108
+--------------------------------------
+Run: OMP_PLACES=cores OMP_PROC_BIND=spread OMP_NUM_THREADS=64 N=10000000
+Pi = 3.141592653590
+Time_seconds = 0.001542
+--------------------------------------
+Run: OMP_PLACES=sockets OMP_PROC_BIND=close OMP_NUM_THREADS=64 N=10000000
+Pi = 3.141592653590
+Time_seconds = 0.001788
+--------------------------------------
+Run: OMP_PLACES=sockets OMP_PROC_BIND=spread OMP_NUM_THREADS=64 N=10000000
+Pi = 3.141592653590
+Time_seconds = 0.001784
+--------------------------------------
