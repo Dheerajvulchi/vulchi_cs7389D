@@ -1,0 +1,7 @@
+TACC:  Starting up job 2986856 
+TACC:  Starting parallel tasks... 
+I am a very busy professor.
+Received a message from process 1 on c302-006.ls6.tacc.utexas.edu
+Received a message from process 2 on c302-006.ls6.tacc.utexas.edu
+Received a message from process 3 on c302-006.ls6.tacc.utexas.edu
+TACC:  Shutdown complete. Exiting. 
