@@ -1,0 +1,5 @@
+Version,Workers,Ranks,Threads,Time_ms,IO_read_ms,IO_write_ms
+Sequential,1,1,1,214.0,729.414,1413.04
+OpenMP,4,1,4,60.6,729.931,1395.48
+MPI,4,4,1,75.2,731.415,1380.66
+Hybrid,8,2,4,54.7,736.646,1385.72
